@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{88605B85-0A95-4EC4-9DBE-CC4705C2232B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Gala</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Gala</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchI18n>
+    </MtouchI18n>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Calabash">
+      <HintPath>..\packages\Xamarin.TestCloud.Agent.0.13.0\lib\Xamarin.iOS10\Calabash.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.portable">
+      <HintPath>..\packages\ZXing.Net.Mobile.1.5.4.0\lib\Xamarin.iOS\zxing.portable.dll</HintPath>
+    </Reference>
+    <Reference Include="ZXingNetMobile">
+      <HintPath>..\packages\ZXing.Net.Mobile.1.5.4.0\lib\Xamarin.iOS\ZXingNetMobile.dll</HintPath>
+    </Reference>
+    <Reference Include="BizappTheme.Controls.iOS.FXLabel">
+      <HintPath>..\Components\bizapptheme-1.1.2\lib\ios-unified\BizappTheme.Controls.iOS.FXLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="BizappTheme.iOS">
+      <HintPath>..\Components\bizapptheme-1.1.2\lib\ios-unified\BizappTheme.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCL.raw">
+      <HintPath>..\packages\SQLitePCL.raw_basic.0.7.1\lib\Xamarin.iOS10\SQLitePCL.raw.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>..\packages\sqlite-net-pcl.1.0.11\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\packages\Xamarin.Insights.1.11.3\lib\Xamarin.iOS10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+    <Reference Include="PLCrashReporterUnifiedBinding">
+      <HintPath>..\packages\Xamarin.Insights.1.11.3\lib\Xamarin.iOS10\PLCrashReporterUnifiedBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.iOS">
+      <HintPath>..\Components\parse-1.7.0\lib\ios-unified\Parse.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Launch.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonDetailViewController.cs" />
+    <Compile Include="PersonDetailViewController.designer.cs">
+      <DependentUpon>PersonDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="ActivityViewController.cs" />
+    <Compile Include="ActivityViewController.designer.cs">
+      <DependentUpon>ActivityViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyItemsTableViewController.cs" />
+    <Compile Include="BuyItemsTableViewController.designer.cs">
+      <DependentUpon>BuyItemsTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewItemViewController.cs" />
+    <Compile Include="AddNewItemViewController.designer.cs">
+      <DependentUpon>AddNewItemViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Items.cs" />
+    <Compile Include="DetailItemsViewController.cs" />
+    <Compile Include="DetailItemsViewController.designer.cs">
+      <DependentUpon>DetailItemsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityListTableViewController.cs" />
+    <Compile Include="ActivityListTableViewController.designer.cs">
+      <DependentUpon>ActivityListTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityDetailsViewController.cs" />
+    <Compile Include="ActivityDetailsViewController.designer.cs">
+      <DependentUpon>ActivityDetailsViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Insights.1.11.3\build\Xamarin.iOS10\Xamarin.Insights.targets" Condition="Exists('..\packages\Xamarin.Insights.1.11.3\build\Xamarin.iOS10\Xamarin.Insights.targets')" />
+  <Import Project="..\packages\Select.Pdf.16.1.1.0\build\Select.Pdf.targets" Condition="Exists('..\packages\Select.Pdf.16.1.1.0\build\Select.Pdf.targets')" />
+  <ItemGroup>
+    <XamarinComponentReference Include="zxing.net.mobile">
+      <Version>1.5.4.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="bizapptheme">
+      <Version>1.1.2</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="sqlite-net">
+      <Version>1.0.11</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="parse">
+      <Version>1.7.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Images.xcassets\AppIcons.appiconset\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\se_color_logo.jpg" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\se_color_logo114.jpg" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\se_color_logo180.jpg" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\se_color_logo29.jpg" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\se_color_logo58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Available.png" />
+    <BundleResource Include="Resources\NotAvailable.png" />
+    <BundleResource Include="Resources\auction.jpg" />
+    <BundleResource Include="Resources\RoundButton.png" />
+    <BundleResource Include="Resources\RoundButton60.png" />
+  </ItemGroup>
+</Project>

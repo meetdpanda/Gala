@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/actool/bundle/Assets.car</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset/[][][][][][Icon-100.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-114.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-120.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-144.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-180.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-29.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-40.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-50.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-57.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-58.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-72.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-76.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-76@2x.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-80.png]</string>
+				<string>./AppIcons.appiconset/[][][][][][Icon-87.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcons" has 15 unassigned images.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

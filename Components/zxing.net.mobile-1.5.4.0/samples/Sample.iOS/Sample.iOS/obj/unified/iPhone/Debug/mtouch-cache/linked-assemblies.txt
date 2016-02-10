@@ -1,0 +1,9 @@
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/ZXingNetMobile.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/zxing.portable.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/ZxingSharpMonoTouchSample.exe
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/System.Json.dll
+/Users/dpanda/Projects/Gala/Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/obj/unified/iPhone/Debug/mtouch-cache/Link/MonoTouch.Dialog-1.dll

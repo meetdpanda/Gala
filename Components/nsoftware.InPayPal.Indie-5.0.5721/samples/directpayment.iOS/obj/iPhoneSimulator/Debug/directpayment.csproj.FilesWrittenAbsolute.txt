@@ -1,0 +1,13 @@
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/3XZ-ZD-9nt-view-Imn-0O-YcU.nib
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/Info.plist
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-3XZ-ZD-9nt.nib
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/UIViewController-gIE-03-ElX.nib
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/ibtool/MainStoryboard.storyboardc/gIE-03-ElX-view-ysj-U7-MyH.nib
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/optimized/Icon.png
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/bin/iPhoneSimulator/Debug/DirectpaymentDemo.exe.mdb
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/bin/iPhoneSimulator/Debug/DirectpaymentDemo.exe
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/DirectpaymentDemo.exe
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/obj/iPhoneSimulator/Debug/DirectpaymentDemo.exe.mdb
+/Users/debashis/Dropbox/Shared/Projects/Gala/Components/nsoftware.InPayPal.Indie-5.0.5721/samples/directpayment.iOS/bin/iPhoneSimulator/Debug/nsoftware.InPayPal.Xamarin.dll

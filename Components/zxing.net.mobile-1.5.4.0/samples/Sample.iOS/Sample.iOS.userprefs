@@ -1,0 +1,33 @@
+﻿<Properties StartupItem="Sample.iOS/Sample.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sample.iOS/HomeViewController.cs">
+    <Files>
+      <File FileName="../../../../Gala/ViewController.cs" Line="39" Column="1" />
+      <File FileName="../../../../Gala/Main.cs" Line="12" Column="1" />
+      <File FileName="Sample.iOS/HomeViewController.cs" Line="32" Column="1" />
+      <File FileName="Sample.iOS/AppDelegate.cs" Line="41" Column="1" />
+      <File FileName="../../../../Gala/AppDelegate.cs" Line="29" Column="4" />
+      <File FileName="Sample.iOS/Main.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gala" expanded="True">
+            <Node name="Gala" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Sample.iOS" expanded="True">
+            <Node name="Sample.iOS" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dpanda/Projects/Gala/Gala/ViewController.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

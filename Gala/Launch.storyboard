@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="13A451" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="8">
+            <objects>
+                <viewController id="9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="10">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="21" translatesAutoresizingMaskIntoConstraints="NO" image="auction.jpg" misplaced="YES">
+                                <rect key="frame" x="129" y="131" width="394" height="424"/>
+                                <constraints>
+                                    <constraint id="53" firstItem="21" firstAttribute="width" constant="394"/>
+                                    <constraint id="64" firstAttribute="width" secondItem="21" secondAttribute="height" constant="0.0" multiplier="197:212"/>
+                                    <constraint id="65" firstAttribute="width" secondItem="21" secondAttribute="height" constant="0.0" multiplier="197:212"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="21" firstAttribute="centerX" secondItem="10" secondAttribute="centerX" constant="0.0" id="42"/>
+                            <constraint firstItem="21" firstAttribute="centerY" secondItem="10" secondAttribute="centerY" constant="0.0" id="57"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170" y="46"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon.png" width="57" height="57"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Available.png" width="512" height="512"/>
+        <image name="NotAvailable.png" width="512" height="512"/>
+        <image name="auction.jpg" width="900" height="900"/>
+        <image name="RoundButton.png" width="265" height="268"/>
+        <image name="RoundButton60.png" width="158" height="160"/>
+    </resources>
+</document>

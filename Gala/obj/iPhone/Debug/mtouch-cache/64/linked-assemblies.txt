@@ -1,0 +1,13 @@
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/zxing.portable.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/SQLite-net.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/BizappTheme.iOS.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/Parse.iOS.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/Mono.Dynamic.Interpreter.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/ZXingNetMobile.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/Gala.exe
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/Calabash.dll
+/Users/debashis/Dropbox/Shared/Projects/Gala/Gala/obj/iPhone/Debug/mtouch-cache/64/Link/SQLitePCL.raw.dll

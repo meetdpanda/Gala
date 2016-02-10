@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Gala/Gala.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gala/ActivityViewController.cs">
+    <Files>
+      <File FileName="Gala/ViewController.cs" Line="1" Column="1" />
+      <File FileName="Gala/Main.cs" Line="1" Column="1" />
+      <File FileName="Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/HomeViewController.cs" Line="1" Column="1" />
+      <File FileName="Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Gala/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Components/zxing.net.mobile-1.5.4.0/samples/Sample.iOS/Sample.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="Gala/Resources/Images.xcassets/AppIcons.appiconset/Contents.json" />
+      <File FileName="Gala/DetailsViewController.cs" Line="1" Column="1" />
+      <File FileName="Gala/PersonDetailViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="Gala/PersonDetailViewController.cs" Line="1" Column="1" />
+      <File FileName="Gala/ActivityViewController.cs" Line="24" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
